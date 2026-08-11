@@ -56,9 +56,13 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .nav-links a, .nav-logo, .service-num, .step-num {
   font-family: var(--font-family-mono);
 }
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
 
 /* ============================================
    3. LAYOUT PATTERNS

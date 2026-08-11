@@ -258,8 +258,9 @@ h1, h2, h3 {
    ============================================ */
 
 @media (max-width: 640px) {
-  .card-grid {
-    grid-template-columns: 1fr; /* stack cards on mobile */
+  .service-row {
+    grid-template-columns: 1fr; /* stack number/title/description on mobile */
+    gap: var(--space-xs);
   }
 
   .nav {
